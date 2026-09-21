@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Caches / editors
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated artefacts (keep the repo reproducible, not heavy)
+outputs/
+figures/
+results/
+*.log
+
+# Intermediate data produced by the notebooks
+data/aux_series*.pkl
+data/*_cache.pkl

@@ -1,0 +1,22 @@
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+seaborn>=0.12
+
+# Modelling / statistics
+scikit-learn>=1.3
+statsmodels>=0.14
+
+# Market data (only needed to refresh the datasets)
+yfinance>=0.2.40
+pandas-datareader>=0.10
+
+# GPU implementation of the Ising estimator (utils.two_state_ising_prediction_gpu).
+# CPU-only wheels are fine; install the CUDA build from pytorch.org for GPU support.
+torch>=2.0
+
+# Notebook environment
+jupyterlab>=4.0
+ipykernel>=6.25

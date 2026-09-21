@@ -1,0 +1,6 @@
+# Large binary datasets are tracked with Git LFS
+*.pkl  filter=lfs diff=lfs merge=lfs -text
+*.parquet filter=lfs diff=lfs merge=lfs -text
+
+# Treat notebooks as text so GitHub renders diffs
+*.ipynb text eol=lf
