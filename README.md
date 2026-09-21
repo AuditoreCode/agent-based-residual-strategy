@@ -18,7 +18,7 @@ bullish or bearish, and switches state under the combined influence of the recen
 price trend and of the majority opinion. A mean-field approximation reduces the
 system to a two-parameter map
 
-$$\langle x \rangle_{t+1} = \tanh\!\big(a\,\Delta p_t + b\,s_t\big)$$
+$$\langle x \rangle_{t+1} = \tanh\big(a\,\Delta p_t + b\,s_t\big)$$
 
 where $a$ captures trend-chasing and $b$ herding. The parameters are re-estimated at
 every date on a rolling window (walk-forward, one step ahead), which makes the model
