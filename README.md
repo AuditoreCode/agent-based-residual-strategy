@@ -3,7 +3,7 @@
 A research project that builds a **two-state interacting agent-based model (ABM)** of
 financial markets — in the spirit of Kaizoji (2000, 2006) — and turns its
 one-step-ahead forecast errors into a **residual-based trading signal** on the
-crypto cross-section, priced through an **average-price-option (Asian option)**
+crypto cross-section, priced through an **moving average-price-option**
 replication with realistic frictions.
 
 > Research / educational project. Nothing here is investment advice, and the
